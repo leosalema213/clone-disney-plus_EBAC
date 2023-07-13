@@ -113,6 +113,7 @@ body{
     letter-spacing: 1px;
     border: 1px solid variaveis.$corDeFundoBotaoPrimario;
 
+
     &:hover{
         background-color: lighten(variaveis.$corDeFundoBotaoPrimario,3%);
     }
@@ -124,6 +125,8 @@ body{
         &:hover{
             background-color: lighten(variaveis.$corDeFundoBotaoSecundario,3%);
         }
+
+        
     }
     &--dark{
         background-color: rgb(variaveis.$corDeFundoBotaoDark,0.8);
